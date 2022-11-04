@@ -12,3 +12,4 @@
 | [Day 6: Lanternfish](https://adventofcode.com/2021/day/6) | [Clojure](clojure/aoc/src/aoc/day06.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day6/Day6.scala) | 
 | [Day 7: The Treachery of Whales](https://adventofcode.com/2021/day/7) | [Clojure](clojure/aoc/src/aoc/day07.clj) | 
 | [Day 8: Seven Segment Search](https://adventofcode.com/2021/day/8) | [Clojure](clojure/aoc/src/aoc/day08.clj) | 
+| [Day 9: Smoke Basin](https://adventofcode.com/2021/day/9) | [Clojure](clojure/aoc/src/aoc/day09.clj) |
