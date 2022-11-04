@@ -18,17 +18,17 @@
   (let [{horizontal :horizontal depth :depth} position,
         {direction :direction magnitude :magnitude} instruction]
     (case direction
-      "forward" (->Position (+ horizontal magnitude) depth)
-      "down" (->Position horizontal (+ depth magnitude))
-      "up" (->Position horizontal (- depth magnitude)))))
+      "forward" (assoc position :horizontal (+ horizontal magnitude))
+      "down" (assoc position :depth (+ depth magnitude))
+      "up" (assoc position :depth (- depth magnitude)))))
 
 (defn update-position-with-aim [position instruction]
   (let [{horizontal :horizontal depth :depth aim :aim} position,
         {direction :direction magnitude :magnitude} instruction]
     (case direction
       "forward" (->PositionWithAim (+ horizontal magnitude) (+ depth (* aim magnitude)) aim)
-      "down" (->PositionWithAim horizontal depth (+ aim magnitude))
-      "up" (->PositionWithAim horizontal depth (- aim magnitude)))))
+      "down" (assoc position :aim (+ aim magnitude))
+      "up" (assoc position :aim (- aim magnitude)))))
 
 (defn get-result [final-state]
   (let [{horizontal :horizontal depth :depth} final-state]
