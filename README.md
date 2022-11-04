@@ -10,3 +10,4 @@
 | [Day 4: Giant Squid](https://adventofcode.com/2021/day/4) | [Clojure](clojure/aoc/src/aoc/day04.clj) | 
 | [Day 5: Hydrothermal Venture](https://adventofcode.com/2021/day/5) | [Clojure](clojure/aoc/src/aoc/day05.clj) | 
 | [Day 6: Lanternfish](https://adventofcode.com/2021/day/6) | [Clojure](clojure/aoc/src/aoc/day06.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day6/Day6.scala) | 
+| [Day 7: The Treachery of Whales](https://adventofcode.com/2021/day/7) | [Clojure](clojure/aoc/src/aoc/day07.clj) | 
