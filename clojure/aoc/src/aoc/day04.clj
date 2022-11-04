@@ -1,6 +1,5 @@
 (ns aoc.day04
-  (:require [clojure.java.io]
-            [clojure.string :as str]))
+  (:require [clojure.string :as str]))
 
 (defrecord Game [numbers boards])
 
