@@ -8,7 +8,7 @@
 | [Day 2: Dive!](https://adventofcode.com/2021/day/2)  | [Clojure](clojure/aoc/src/aoc/day02.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day2/Day2.scala)    | 
 | [Day 3: Binary Diagnostic](https://adventofcode.com/2021/day/3) | [Clojure](clojure/aoc/src/aoc/day03.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day3/Day3.scala) | 
 | [Day 4: Giant Squid](https://adventofcode.com/2021/day/4) | [Clojure](clojure/aoc/src/aoc/day04.clj) | 
-| [Day 5: Hydrothermal Venture](https://adventofcode.com/2021/day/5) | [Clojure](clojure/aoc/src/aoc/day05.clj) | 
+| [Day 5: Hydrothermal Venture](https://adventofcode.com/2021/day/5) | [Clojure](clojure/aoc/src/aoc/day05.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day5/Day5.scala) | 
 | [Day 6: Lanternfish](https://adventofcode.com/2021/day/6) | [Clojure](clojure/aoc/src/aoc/day06.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day6/Day6.scala) | 
 | [Day 7: The Treachery of Whales](https://adventofcode.com/2021/day/7) | [Clojure](clojure/aoc/src/aoc/day07.clj) | 
 | [Day 8: Seven Segment Search](https://adventofcode.com/2021/day/8) | [Clojure](clojure/aoc/src/aoc/day08.clj) | 
