@@ -4,7 +4,7 @@ import scala.io.Source
 import scala.util.Using
 
 def countIncreases(lst: List[Int], n: Int): Int =
-  lst.zip(lst.drop(n)).filter((a, b) => b > a).length
+  lst.zip(lst.drop(n)).count((a, b) => b > a)
 
 @main def day01(): Unit =
   val input = Using.resource(Source.fromFile("input/day01.txt"))(_.getLines.toList)
