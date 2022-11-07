@@ -19,9 +19,9 @@ def isStraightLine(pair: (Point, Point)): Boolean =
 
 def getPoints(pair: (Point, Point)): IndexedSeq[Point] =
   val (p1, p2) = pair
-  if (p1.x == p2.x) then
+  if p1.x == p2.x then
     for y <- newRange(p1.y, p2.y) yield Point(p1.x, y)
-  else if (p1.y == p2.y) then
+  else if p1.y == p2.y then
     for x <- newRange(p1.x, p2.x) yield Point(x, p1.y)
   else for (a, b) <- newRange(p1.x, p2.x).zip(newRange(p1.y, p2.y)) yield Point(a, b)
 
@@ -34,7 +34,7 @@ def countOverlaps(lines: List[(Point, Point)]): Int =
 @main def day05(): Unit =
   val input = Using.resource(Source.fromFile("input/day05.txt"))(_.getLines.toList)
   val lines = input.map(parseLineEndPoints)
-  
+
   val part1 = countOverlaps(lines.filter(isStraightLine))
   val part2 = countOverlaps(lines)
   println(part1)

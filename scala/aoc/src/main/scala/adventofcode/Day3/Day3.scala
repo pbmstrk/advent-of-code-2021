@@ -2,6 +2,7 @@ package adventofcode.Day3
 
 import scala.io.Source
 import scala.util.Using
+import scala.annotation.tailrec
 
 def computeFrequencies[A](lst: List[A]): Map[A, Int] =
   lst.groupBy(identity).view.mapValues(_.length).toMap
@@ -19,9 +20,9 @@ def singlePassRateCalculator(input: List[List[Char]], compF: List[Char] => Char)
   Integer.parseInt(binaryString, 2)
 
 def multiPassRateCalculator(input: List[List[Char]], compF: List[Char] => Char): Int =
-
+  @tailrec
   def loop(candidates: List[List[Char]], index: Int): String =
-    if (candidates.length == 1) then
+    if candidates.length == 1 then
       return candidates.head.mkString
     val columns = candidates.transpose
     val currentColumn = columns(index)

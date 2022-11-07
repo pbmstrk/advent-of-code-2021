@@ -11,9 +11,9 @@ enum Command:
 trait BasePosition:
   def result: Int
 case class Position(position: Int, depth: Int) extends BasePosition:
-  override def result = position * depth
+  override def result: Int = position * depth
 case class PositionWithAim(position: Int, depth: Int, aim: Int) extends BasePosition:
-  override def result = position * depth
+  override def result: Int = position * depth
 
 def parseCommand(input: String): Command =
   input match
