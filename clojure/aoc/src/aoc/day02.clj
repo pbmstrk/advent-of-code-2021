@@ -8,10 +8,13 @@
 (defn vec->command [[dir mag]]
   {:direction dir :magnitude (Integer/parseInt mag)})
 
+(defn split-on-whitespace [s]
+  (str/split s #" "))
+
 (defn parse [input]
   (->> input
        str/split-lines
-       (map #(clojure.string/split % #" "))
+       (map split-on-whitespace)
        (map vec->command)))
 
 (defn update-position [position instruction]
