@@ -15,4 +15,4 @@
 | [Day 9: Smoke Basin](https://adventofcode.com/2021/day/9) | [Clojure](clojure/aoc/src/aoc/day09.clj) |
 | [Day 10: Syntax Scoring](https://adventofcode.com/2021/day/10) | [Clojure](clojure/aoc/src/aoc/day10.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day10/Day10.scala) |
 | [Day 11: Dumbo Octopus](https://adventofcode.com/2021/day/11) | |
-| [Day 12: Passage Pathing](https://adventofcode.com/2021/day/12) | |
+| [Day 12: Passage Pathing](https://adventofcode.com/2021/day/12) | [Clojure](clojure/aoc/src/aoc/day12.clj) |
