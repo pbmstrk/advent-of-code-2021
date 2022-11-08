@@ -20,4 +20,4 @@
 | [Day 14: Extended Polymerization](https://adventofcode.com/2021/day/14) |  |
 | [Day 15: Chiton](https://adventofcode.com/2021/day/15) |  |
 | [Day 16: Packet Decoder](https://adventofcode.com/2021/day/16) |  |
-| [Day 17: Trick Shot](https://adventofcode.com/2021/day/17) |  [Clojure](clojure/aoc/src/aoc/day17.clj) |
+| [Day 17: Trick Shot](https://adventofcode.com/2021/day/17) |  [Clojure](clojure/aoc/src/aoc/day17.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day17/Day17.scala) |
