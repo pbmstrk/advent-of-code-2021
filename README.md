@@ -12,7 +12,7 @@
 | [Day 6: Lanternfish](https://adventofcode.com/2021/day/6) | [Clojure](clojure/aoc/src/aoc/day06.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day6/Day6.scala) | 
 | [Day 7: The Treachery of Whales](https://adventofcode.com/2021/day/7) | [Clojure](clojure/aoc/src/aoc/day07.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day7/Day7.scala) | 
 | [Day 8: Seven Segment Search](https://adventofcode.com/2021/day/8) | [Clojure](clojure/aoc/src/aoc/day08.clj) | 
-| [Day 9: Smoke Basin](https://adventofcode.com/2021/day/9) | [Clojure](clojure/aoc/src/aoc/day09.clj) |
+| [Day 9: Smoke Basin](https://adventofcode.com/2021/day/9) | [Clojure](clojure/aoc/src/aoc/day09.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day9/Day9.scala) |
 | [Day 10: Syntax Scoring](https://adventofcode.com/2021/day/10) | [Clojure](clojure/aoc/src/aoc/day10.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day10/Day10.scala) |
 | [Day 11: Dumbo Octopus](https://adventofcode.com/2021/day/11) | |
 | [Day 12: Passage Pathing](https://adventofcode.com/2021/day/12) |  |
