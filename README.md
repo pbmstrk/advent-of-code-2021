@@ -21,3 +21,6 @@
 | [Day 15: Chiton](https://adventofcode.com/2021/day/15) |  |
 | [Day 16: Packet Decoder](https://adventofcode.com/2021/day/16) |  |
 | [Day 17: Trick Shot](https://adventofcode.com/2021/day/17) |  [Clojure](clojure/aoc/src/aoc/day17.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day17/Day17.scala) |
+| [Day 18: Snailfish](https://adventofcode.com/2021/day/18) |   |
+| [Day 19: Beacon Scanner](https://adventofcode.com/2021/day/19) |  |
+| [Day 20: Trench Map](https://adventofcode.com/2021/day/20) |  [Clojure](clojure/aoc/src/aoc/day20.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day20/Day20.scala) |
