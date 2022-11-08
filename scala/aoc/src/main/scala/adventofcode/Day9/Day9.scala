@@ -40,7 +40,7 @@ class Grid(gridList: List[List[Char]]):
         loop(newSeen, newTodo)
     loop(Set.empty[Point], Set(p))
 
-@main def day9(): Unit =
+@main def day09(): Unit =
   val input = Using.resource(Source.fromFile("input/day09.txt"))(_.getLines.map(x => x.toList).toList)
   val grid = Grid(input)
   val lowPoints = grid.lowPoints

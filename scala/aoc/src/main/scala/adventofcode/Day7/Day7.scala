@@ -13,7 +13,7 @@ def findMinimumWith(points: List[Int], f: Int => Int): Int =
 
 def sumUpToN(n: Int): Int = (n * (n + 1))/ 2
 
-@main def day7(): Unit =
+@main def day07(): Unit =
   val points = Using.resource(Source.fromFile("input/day07.txt"))(_.mkString.split(',').map(_.toInt).toList)
 
   val part1 = findMinimumWith(points, identity)
