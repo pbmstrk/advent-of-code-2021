@@ -43,4 +43,4 @@
         part1  (->> (first instructions) (update-coords points) distinct count)
         part2 (->> (reduce update-coords points instructions ) format-dots)]
     (println part1)
-    (run! println part2)))
+    (run! (comp println (partial str/join " ")) part2)))
