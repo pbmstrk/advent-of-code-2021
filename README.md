@@ -24,3 +24,8 @@
 | [Day 18: Snailfish](https://adventofcode.com/2021/day/18) |   |
 | [Day 19: Beacon Scanner](https://adventofcode.com/2021/day/19) |  |
 | [Day 20: Trench Map](https://adventofcode.com/2021/day/20) |  [Clojure](clojure/aoc/src/aoc/day20.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day20/Day20.scala) |
+| [Day 21: Dirac Dice](https://adventofcode.com/2021/day/21) |   |
+| [Day 22: Reactor Reboot](https://adventofcode.com/2021/day/22) |   |
+| [Day 23: Amphipod](https://adventofcode.com/2021/day/23) |   |
+| [Day 24: Arithmetic Logic Unit](https://adventofcode.com/2021/day/24) |   |
+| [Day 25: Sea Cucumber](https://adventofcode.com/2021/day/25) |  [Clojure](clojure/aoc/src/aoc/day25.clj) |
