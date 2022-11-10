@@ -18,7 +18,7 @@
 | [Day 12: Passage Pathing](https://adventofcode.com/2021/day/12) |  |
 | [Day 13: Transparent Origami](https://adventofcode.com/2021/day/13) | [Clojure](clojure/aoc/src/aoc/day13.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day13/Day13.scala) |
 | [Day 14: Extended Polymerization](https://adventofcode.com/2021/day/14) | [Clojure](clojure/aoc/src/aoc/day14.clj) |
-| [Day 15: Chiton](https://adventofcode.com/2021/day/15) |  |
+| [Day 15: Chiton](https://adventofcode.com/2021/day/15) | [Clojure](clojure/aoc/src/aoc/day15.clj) |
 | [Day 16: Packet Decoder](https://adventofcode.com/2021/day/16) |  |
 | [Day 17: Trick Shot](https://adventofcode.com/2021/day/17) |  [Clojure](clojure/aoc/src/aoc/day17.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day17/Day17.scala) |
 | [Day 18: Snailfish](https://adventofcode.com/2021/day/18) |   |
