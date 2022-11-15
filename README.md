@@ -14,7 +14,7 @@
 | [Day 8: Seven Segment Search](https://adventofcode.com/2021/day/8) | [Clojure](clojure/aoc/src/aoc/day08.clj) | 
 | [Day 9: Smoke Basin](https://adventofcode.com/2021/day/9) | [Clojure](clojure/aoc/src/aoc/day09.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day9/Day9.scala) |
 | [Day 10: Syntax Scoring](https://adventofcode.com/2021/day/10) | [Clojure](clojure/aoc/src/aoc/day10.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day10/Day10.scala) |
-| [Day 11: Dumbo Octopus](https://adventofcode.com/2021/day/11) | |
+| [Day 11: Dumbo Octopus](https://adventofcode.com/2021/day/11) | [Clojure](clojure/aoc/src/aoc/day11.clj)|
 | [Day 12: Passage Pathing](https://adventofcode.com/2021/day/12) | [Clojure](clojure/aoc/src/aoc/day12.clj) |
 | [Day 13: Transparent Origami](https://adventofcode.com/2021/day/13) | [Clojure](clojure/aoc/src/aoc/day13.clj), [Scala](scala/aoc/src/main/scala/adventofcode/Day13/Day13.scala) |
 | [Day 14: Extended Polymerization](https://adventofcode.com/2021/day/14) | [Clojure](clojure/aoc/src/aoc/day14.clj) |
